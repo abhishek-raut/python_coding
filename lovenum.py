@@ -8,9 +8,10 @@ if name is "Tracy":
         print("Lucy loves number", result)
 
 
-    elif result == 6:
+    elif result != 6:
         result = num1 - num2
-        print("Lucy loves number", result)
+        while result == 6:
+            print("Lucy loves number", result)
 
     else:
         print("Lucy hates number", result)
