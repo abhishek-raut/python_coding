@@ -10,4 +10,4 @@ elif att >= 40:
 
 else:
     print(name, "attendance is", att, "in detention list")
-
+break
